@@ -8,7 +8,7 @@
 
 var css = '<style type="text/css">'
 // Wildcards
-+ '* { font:Helvetica, Sans-serif }'
++ '* { font-family:Helvetica, Sans-serif }'
 
 // Header
 + 'body { margin:0; } '
@@ -18,12 +18,15 @@ var css = '<style type="text/css">'
 + 'body > center > table > tbody > tr:first-child > td > table { padding:0 5px !important }'
 + 'body > center > table > tbody > tr:first-child > td td:nth-child(2) b { padding-left:1px }'
 + 'body > center > table > tbody > tr:first-child > td td:nth-child(2) img { width:30px !important }'
++ 'body > center > table > tbody > tr:first-child > td td:nth-child(2) a { text-transform:capitalize }'
 
 // INDEX
 // Body
 + 'body > center > table > tbody > tr:nth-child(3) tr a { color:#262626 }'
++ 'body > center > table > tbody > tr:nth-child(3) tr a:hover { text-decoration:underline }'
++ 'body > center > table > tbody > tr:nth-child(3) tr a:visited { color:#828282 }'
 + 'body > center > table > tbody > tr:nth-child(3) tr > td.title:first-child { visibility:hidden; overflow:hidden; text-indent:-999px }'
-+ 'body > center > table > tbody > tr:nth-child(3) tr > td:nth-child(2) > center > a { padding:8px 10px }'
++ 'body > center > table > tbody > tr:nth-child(3) tr > td:nth-child(2) > center > a { width:30px; height:16px; display:block }'
 + 'body > center > table > tbody > tr:nth-child(3) tr > td:nth-child(2) > center > a:hover img { opacity:1 }'
 + 'body > center > table > tbody > tr:nth-child(3) tr > td:nth-child(2) img { margin:0 !important; opacity:.5 }'
 + 'body > center > table > tbody > tr:nth-child(3) tr:nth-child(3n) { height:10px !important }'
