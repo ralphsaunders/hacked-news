@@ -29,7 +29,18 @@ var css = '<style type="text/css">'
 + 'body > center > table > tbody > tr:nth-child(3) tr > td:nth-child(2) > center > a:hover img { opacity:1 }'
 + 'body > center > table > tbody > tr:nth-child(3) tr > td:nth-child(2) img { margin:0 !important; opacity:.5 }'
 + 'body > center > table > tbody > tr:nth-child(3) tr:nth-child(3n) { height:10px !important }'
+
+// ITEM
+// Item Link
++ 'body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td > center > a > img { margin:0 }'
++ 'body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td > center > a { width:23px; display:block }'
+
+// Comments
++ 'body > center > table > tbody > tr:nth-child(3) tr > td[valign=top] > center > a { width:10px; padding:3px 6px 0 0 }'
+
+// END OF CSS
 + '</style>';
+
 
 var head = document.getElementsByTagName('head')[0];
 head.innerHTML += css;
