@@ -3,7 +3,7 @@
 // @match https://news.ycombinator.com/*
 // @match http://news.ycombinator.com/*
 // @description For a tidier Hacker News
-// @version .01
+// @version .02
 // ==/UserScript==
 
 var css = '<style type="text/css">'
