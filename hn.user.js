@@ -3,7 +3,7 @@
 // @match https://news.ycombinator.com/*
 // @match http://news.ycombinator.com/*
 // @description For a tidier Hacker News
-// @version 0.0.1
+// @version .01
 // ==/UserScript==
 
 var css = '<style type="text/css">'
@@ -49,5 +49,4 @@ var css = '<style type="text/css">'
 // END OF CSS
 + '</style>';
 
-var head = document.getElementsByTagName('head')[0];
-head.innerHTML += css;
+document.head.innerHTML += css;
