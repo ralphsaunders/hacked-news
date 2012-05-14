@@ -16,8 +16,7 @@ var css = '<style type="text/css">'
 + 'body > center > table > tbody > tr:first-child > td { padding:5px 0 }'
 + 'body > center > table > tbody > tr:first-child > td a:hover { color:#fff }'
 + 'body > center > table > tbody > tr:first-child > td > table { padding:0 5px !important }'
-+ 'body > center > table > tbody > tr:first-child > td td:nth-child(2) b { padding-left:1px }'
-+ 'body > center > table > tbody > tr:first-child > td td:nth-child(2) img { width:30px !important }'
++ 'body > center > table > tbody > tr:first-child > td td:nth-child(2) img { width:28px !important }'
 + 'body > center > table > tbody > tr:first-child > td td:nth-child(2) a { text-transform:capitalize }'
 
 // INDEX
