@@ -8,13 +8,14 @@
 
 var css = '<style type="text/css">'
 // Wildcards
-+ '* { font-family:Helvetica, Sans-serif }'
++ '* { font-family:Helvetica, Sans-serif !important }'
 
 // Header
 + 'body { margin:0; } '
 + 'body > center > table > tbody > tr:first-child { color:#47260F }'
 + 'body > center > table > tbody > tr:first-child > td { padding:5px 0 }'
 + 'body > center > table > tbody > tr:first-child > td a:hover { color:#fff }'
++ 'body > center > table > tbody > tr:first-child > td b a { margin-left:1px }'
 + 'body > center > table > tbody > tr:first-child > td > table { padding:0 5px !important }'
 + 'body > center > table > tbody > tr:first-child > td td:nth-child(2) img { width:28px !important }'
 + 'body > center > table > tbody > tr:first-child > td td:nth-child(2) a { text-transform:capitalize }'
@@ -37,10 +38,16 @@ var css = '<style type="text/css">'
 
 // Comments
 + 'body > center > table > tbody > tr:nth-child(3) tr > td[valign=top] > center > a { width:10px; padding:3px 6px 0 0 }'
++ '.comment { max-width:400px; line-height:1.4; display:block }'
++ '.comment p { margin:1em 0 0 0 }'
++ '.default > div { margin-bottom:-6px !important }'
+
+// PROFILE
+// Form
++ 'body > center > table > tbody > tr:nth-child(3) form tbody > tr > td:first-child { padding-left:26px }'
 
 // END OF CSS
 + '</style>';
-
 
 var head = document.getElementsByTagName('head')[0];
 head.innerHTML += css;
