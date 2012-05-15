@@ -43,4 +43,4 @@ To get userscripts working in Safari you must use
 In theory this should work in Opera as well, however verifying this requires the
 installation of Opera — something that they don't seem keen on anyone doing.
 
-![I wonder why nobody uses this](lol-opera.png)
+![I wonder why nobody uses this](/lol-opera.png)
