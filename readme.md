@@ -17,9 +17,30 @@ possible.
 
 ## Usage
 
-I wrote this for Chrome. Simply open hn.user.js in Chrome and Chrome should
-interperate it as an extension, asking you for installation permission.
+### Chrome
+###### v18
 
-In theory this userscript should work fine in Firefox, Safari, and Opera. If
-you get it working in one of these browsers please let me know the details and
-I'll update this readme with correct instructions.
+Chrome supports userscripts natively. Simply open hn.user.js in Chrome and it'll
+interperate it as an extension.
+
+### Firefox
+###### v12
+
+To get userscripts working in Firefox you must install the
+[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+addon. Once that's installed open hn.user.js in Firefox and Greasemonkey will
+recognise it as a userscript.
+
+### Safari
+###### v5
+
+To get userscripts working in Safari you must use
+[GreaseKit](http://8-p.info/greasekit/).
+
+### Opera
+###### v?
+
+In theory this should work in Opera as well, however verifying this requires the
+installation of Opera — something that they don't seem keen on anyone doing.
+
+![I wonder why nobody uses this](lol-opera.png)
