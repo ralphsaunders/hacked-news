@@ -5,7 +5,7 @@ style, instead it realigns parts of the layout for consistency and readability.
 This userscript is intended to improve HN's usability in the most efficient way
 possible.
 
-## Improvements
+## What Does It Change?
 
 - Comments are now limited in width
 - Upvote buttons have bigger click areas
@@ -15,13 +15,13 @@ possible.
 - Ranking numbers have been made invisible, but are still accessible to screen
   readers
 
-## Usage
+## Installation
 
 ### Chrome
 ###### v18
 
-Chrome supports userscripts natively. Simply open hn.user.js in Chrome and it'll
-interperate it as an extension.
+Chrome supports userscripts natively (because it's awesome). Simply open
+hn.user.js in Chrome and it'll interperate it as an extension.
 
 ### Firefox
 ###### v12
