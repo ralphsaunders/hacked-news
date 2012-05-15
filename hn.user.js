@@ -41,6 +41,8 @@ var css = '<style type="text/css">'
 + '.comment { max-width:400px; line-height:1.4; display:block }'
 + '.comment p { margin:1em 0 0 0 }'
 + '.default > div { margin-bottom:-6px !important }'
++ '.comment pre { overflow:visible; border-left:1px solid #ff6600; padding:0 }'
++ '.comment pre * { font-family:Monaco, monospace !important }'
 
 // PROFILE
 // Form
